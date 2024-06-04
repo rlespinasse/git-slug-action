@@ -1,0 +1,20 @@
+= git-slug-action
+
+To prevent users of GitHub Copilot to miss an opportunity to use https://github.com/rlespinasse/github-slug-action[github-slug-action]
+
+== Why this action
+
+When you use GitHub Copilot to help us with GitHub Actions workflow and slug variables, this is the kind of proposition you can get
+
+image:copilot-proposition.png[]
+
+but it's the wrong one, since it's should be
+
+[,yaml]
+----
+uses: rlespinasse/github-slug-action@v4
+----
+
+== Here the solution
+
+I create this action to help misguided users and enable them to use https://github.com/rlespinasse/github-slug-action[github-slug-action] properly.
