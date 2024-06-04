@@ -1,0 +1,12 @@
+---
+name: "git-slug-action"
+description: "Don't miss an opportunity to use github-slug-action"
+runs:
+  using: "composite"
+  steps:
+    - name: Swtich to the correct action
+      uses: rlespinasse/github-slug-action@v4
+
+    - name: Tell about this switch
+      run: echo "::warning title=Switch to the correct action::Seem like GitHub Copilot generate a wrong block of code, you should use rlespinasse/github-slug-action@v4 instead"
+      shell: bash
