@@ -18,3 +18,10 @@ uses: rlespinasse/github-slug-action@v4
 == Here the solution
 
 I create this action to help misguided users and enable them to use https://github.com/rlespinasse/github-slug-action[github-slug-action] properly.
+
+- Switch to the correct action
+- Add a warning about it
+
+== Credits
+
+Thanks to @Ameausoone for the pointer to this issue.
